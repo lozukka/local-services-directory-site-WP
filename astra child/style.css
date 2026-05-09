@@ -1,0 +1,100 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0.0
+Author: Lotta
+Description: Child theme for Astra
+*/
+
+.listing-grid,
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.listing__info {
+  padding: 0.5rem 0;
+}
+.listing__image img,
+.service__image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.listing__image img:hover,
+.service__image img:hover {
+  opacity: 50%;
+}
+.listing__title:hover,
+.service__title:hover {
+  text-decoration: underline;
+}
+.listing__excerpt,
+.service__excerpt {
+  color: black;
+}
+.listing__excerpt:hover,
+.service__excerpt:hover {
+  text-decoration: underline;
+}
+.listing__category-link a,
+.single__category-link a,
+.service__category-link a {
+  background: lightgrey;
+  padding: 0.3rem;
+  color: black;
+  border-radius: 25px;
+}
+.listing__category-link,
+.single__category-link,
+.service__category-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.listing__category-link a:hover,
+.single__category-link a:hover,
+.service__category-link a:hover {
+  text-decoration: underline;
+  background: grey;
+}
+
+.single__thumbnail_image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.single-item,
+.single__heading {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 2rem;
+}
+.single-item {
+  padding: 0 0 2rem 0;
+}
+.single__heading {
+  align-items: center;
+  padding: 2rem 0;
+}
+.single__description {
+  padding: 0 0 2rem 0;
+}
+
+.single__metainfo {
+  background: lightblue;
+  padding: 2rem;
+}
+
+.service-archive-title {
+  text-transform: capitalize;
+}
+.searchandfilter {
+  width: 300px;
+  margin-top: 64px;
+}

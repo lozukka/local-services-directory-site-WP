@@ -1,0 +1,1 @@
+<?php echo do_shortcode( '[searchandfilter fields="service,location" types="checkbox,checkbox" headings="Palvelu,Paikkakunta" submit_label="Filteröi"]' ); ?>
