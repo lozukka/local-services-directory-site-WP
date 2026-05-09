@@ -1,4 +1,4 @@
-# Projet for my portfolio: Local Services Directory
+# Project for my portfolio: Local Services Directory
 
 ## Project Title:
 
